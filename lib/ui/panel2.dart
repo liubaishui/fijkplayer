@@ -479,9 +479,9 @@ class __FijkPanel2State extends State<_FijkPanel2> {
     return GestureDetector(
       onTap: onTapFun,
       onDoubleTap: widget.doubleTap ? onDoubleTapFun : null,
-      onVerticalDragUpdate: onVerticalDragUpdateFun,
-      onVerticalDragStart: onVerticalDragStartFun,
-      onVerticalDragEnd: onVerticalDragEndFun,
+      // onVerticalDragUpdate: onVerticalDragUpdateFun,
+      // onVerticalDragStart: onVerticalDragStartFun,
+      // onVerticalDragEnd: onVerticalDragEndFun,
       onHorizontalDragUpdate: (d) {},
       child: AbsorbPointer(
         absorbing: _hideStuff,
